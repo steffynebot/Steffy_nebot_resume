@@ -34,7 +34,7 @@ profiles:
     url: https://github.com/steffynebot
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: media/tbs
+  - icon: "media/tbs"
     url: https://public.tableau.com/app/profile/andrea.nebot
 
 interests:
