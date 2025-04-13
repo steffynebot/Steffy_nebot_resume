@@ -27,14 +27,14 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: "custom/e-mail"
+  - icon: at-symbol
     url: 'mailto:andrea.nebotoutlook.com'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/steffynebot
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: "custom/tbs"
+  - icon: "media/tbs"
     url: https://public.tableau.com/app/profile/andrea.nebot
 
 interests:
