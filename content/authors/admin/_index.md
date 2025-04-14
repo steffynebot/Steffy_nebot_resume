@@ -52,38 +52,40 @@ education:
     date_start: 2025
     date_end: 2022
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Projets:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
     button:
-      text: 'Read Thesis'
+      text: 'Voir le diplôme'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bac+4 Data Analyst
+    institution: Openclassromm
+    date_start: 2021
+    date_end: 2022
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
+      Projets:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    button:
+      text: 'Voir le diplôme'
+      url: 'https://example.com'
+  - area: Licence Sociologie 
+    institution: Université Paris Descartes
+    date_start: 2021
+    date_end: 2022
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
+      Cours inclus:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Data Analyst
+    company_name: INRIA
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-06-01
     date_end: ''
     summary: |2-
       Responsibilities include:
@@ -91,11 +93,22 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Backend Software Engineer
-    company_name: X
+    company_name: Crédit Agricole
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-01-01
+    date_end: 2023-03-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Data Analyst
+    company_name: IEIF
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-06-01
+    date_end: 2022-11-31
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -137,11 +150,13 @@ skills:
         icon: camera
 
 languages:
-  - name: English
+  - name: Français
     percent: 100
-  - name: Chinese
+  - name: Créole
+    percent: 100
+  - name: Anglais (B2)
     percent: 75
-  - name: Portuguese
+  - name: Espagnol
     percent: 25
 
 # Awards.
