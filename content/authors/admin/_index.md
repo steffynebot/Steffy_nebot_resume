@@ -37,7 +37,7 @@ profiles:
   - icon: "media/tbs.svg"
     url: https://public.tableau.com/app/profile/andrea.nebot
 
-interests:
+Domaines:
   - Scientométrie
   - Bibliométrie
   - Sciences ouvertes
@@ -46,31 +46,41 @@ interests:
   - Sociologie
   - Démographie
 
-education:
+Formations:
   - area: Bac+5 Data Scientist
     institution: Centrale Supélec (OpenClassrooms)
     date_start: 2023-03-01
     date_end: 2024-06-30
     summary: |
       Projets:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Idée d'application au service de la santé publique (PYTHON) 
+      - Anticiper les besoin de consommation des bâtiments (PYTHON) 
+      - Segmentation et analyse des clients d'une e-commerce (PYTHON) 
+      - Classification automatique des bien de consommation (PYTHON)
+      - Implémentation d'un modèle de scoring
+      - Déployment d'un modèle dans le cloud
     button:
-      text: 'Voir le diplôme'
-      url: 'https://example.com'
+      text: 'Voir les projets'
+      url: '[https://example.com'][def]
   - area: Bac+4 Data Analyst
     institution: ENSAE (OpenClassrooms)
     date_start: 2022-09-01
     date_end: 2023-03-01
     summary: |
       Projets:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Analyse des ventes pour un e-commerce (Excel)
+      - Création et utilisation d'une base de données immobilière (SQL) 
+      - Réalisation d'une étude de santé publique (PYTHON) 
+      - Optimisation de la gestion des donnes d'une boutique (PYTHON) 
+      - Analyse des ventes d'une librairie (PYTHON)
+      - Analyse des indicateurs femme-homme avec (KNIME)
+      - Etude sur l'eau potable avec TABLEAU
+      - Etude de marché (PYTHON)
+      - Détection des faux billets (PYTHON)
+      - Analyse des systèmes éducatifs (PYTHON)
     button:
-      text: 'Voir le diplôme'
-      url: 'https://example.com'
+      text: 'Voir les projets'
+      url: 'https://github.com/steffynebot/Projets-Data-Analyst'
   - area: Licence Sociologie 
     institution: Université Paris Descartes
     date_start: 2021
@@ -124,9 +134,7 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" />
-          
+        icon: python
       - name: Data Science
         description: ''
         percent: 100
