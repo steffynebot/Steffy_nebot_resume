@@ -53,14 +53,14 @@ Formations:
     date_end: 2024-06-30
     summary: |
       Projets:
-        - Idée d'application au service de la santé publique (PYTHON) 
-        - Anticiper les besoin de consommation des bâtiments (PYTHON) 
-        - Segmentation et analyse des clients d'une e-commerce (PYTHON) 
-        - Classification automatique des bien de consommation (PYTHON)
-        - Implémentation d'un modèle de scoring
-        - Déployment d'un modèle dans le cloud
+      - Idée d'application au service de la santé publique (PYTHON) 
+      - Anticiper les besoin de consommation des bâtiments (PYTHON) 
+      - Segmentation et analyse des clients d'une e-commerce (PYTHON) 
+      - Classification automatique des bien de consommation (PYTHON)
+      - Implémentation d'un modèle de scoring
+      - Déployment d'un modèle dans le cloud
     button:
-      text: 'Voir les projets'
+      text: 'Mes projets'
       url: 'https://github.com/steffynebot/Projets-Data-Scientist'
   - area: Bac+4 Data Analyst
     institution: ENSAE (OpenClassrooms)
@@ -79,7 +79,7 @@ Formations:
       - Détection des faux billets (PYTHON)
       - Analyse des systèmes éducatifs (PYTHON)
     button:
-      text: 'Voir les projets'
+      text: 'Mes projets'
       url: 'https://github.com/steffynebot/Projets-Data-Analyst'
   - area: Licence Sociologie 
     institution: Université Paris Descartes
