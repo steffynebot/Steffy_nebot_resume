@@ -28,13 +28,13 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:andrea.nebotoutlook.com'
+    url: 'mailto:andrea.nebot@outlook.com'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/steffynebot
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: "media/tbs"
+  - icon: "media/tbs.svg"
     url: https://public.tableau.com/app/profile/andrea.nebot
 
 interests:
@@ -48,9 +48,9 @@ interests:
 
 education:
   - area: Bac+5 Data Scientist
-    institution: Openclassroom
-    date_start: 2025
-    date_end: 2022
+    institution: Centrale Supélec (OpenClassrooms)
+    date_start: 2023-03-01
+    date_end: 2024-06-30
     summary: |
       Projets:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -60,9 +60,9 @@ education:
       text: 'Voir le diplôme'
       url: 'https://example.com'
   - area: Bac+4 Data Analyst
-    institution: Openclassromm
-    date_start: 2021
-    date_end: 2022
+    institution: ENSAE (OpenClassrooms)
+    date_start: 2022-09-01
+    date_end: 2023-03-01
     summary: |
       Projets:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -89,10 +89,11 @@ work:
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
+      - Analyse textuelle, enrichissement et structuration des données
+      - Visualisation avec Power BI, coordination de projets
+      - Animation de réseaux professionnels
+      - Veille scientifique et formation
+  - position: Gestionnaire de bases de données réglementaires
     company_name: Crédit Agricole
     company_url: ''
     company_logo: ''
@@ -111,9 +112,9 @@ work:
     date_end: 2022-11-30
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Automatisation de pipelines avec Dataiku
+      - Création de dashboards sur Toucan Toco
+      - Collecte de données via API
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -140,10 +141,10 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Dogs
         description: ''
         percent: 100
-        icon: cat
+        icon: dog
       - name: Photography
         description: ''
         percent: 80
@@ -191,6 +192,6 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## A propos de moi
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Je suis data scientist à l’Inria, spécialisée en scientométrie, bibliométrie et analyse de données. Mon travail consiste à exploiter des méthodologies basées sur les données pour étudier les publications scientifiques, les réseaux de collaboration et l’impact de la recherche. J’anime et coordonne le groupe DATALAKE, où nous développons des approches innovantes pour traiter et visualiser des données de recherche à grande échelle, en intégrant l’apprentissage automatique, l’analyse de réseaux et la modélisation statistique.
