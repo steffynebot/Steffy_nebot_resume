@@ -34,7 +34,7 @@ profiles:
     url: https://github.com/steffynebot
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: "media/tbs.svg"
+  - icon: "custom/tbs"
     url: https://public.tableau.com/app/profile/andrea.nebot
 
 interests:
@@ -145,13 +145,10 @@ skills:
   - name: Data & Tech
     items:
       - name: Python
-        icon: fab/python
+        icon: python
         percent: 85
-      - name: R
-        icon: fab/r-project
-        percent: 70
       - name: SQL
-        icon: fas/database
+        icon: devicon/azuresqldatabase
         percent: 80
       - name: API (INSEE, OCDE, FAO)
         icon: fas/plugs
@@ -162,7 +159,8 @@ skills:
       - name: Machine Learning (Scikit-learn)
         icon: fas/brain
         percent: 80
-  - name: Outils BI / Dashboard
+
+  - name: Outils BI et ETL
     items:
       - name: Power BI
         icon: fas/chart-pie
@@ -179,18 +177,6 @@ skills:
       - name: Dataiku
         icon: fas/cogs
         percent: 80
-  - name: Enquêtes et Méthodologie
-    items:
-      - name: Méthodes quantitatives & qualitatives
-        icon: fas/poll
-        percent: 100
-      - name: Conception de questionnaires
-        icon: fas/clipboard-question
-        percent: 90
-      - name: Analyse d’enquête
-        icon: fas/clipboard-list
-        percent: 95
-
   - name: Bureautique
     items:
       - name: Excel (TCD, KPI, Dashboard)
@@ -213,7 +199,7 @@ skills:
       - name: cat
         description: ''
         percent: 100
-        icon: dog
+        icon: cat
       - name: Photography
         description: ''
         percent: 80
