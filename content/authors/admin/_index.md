@@ -83,8 +83,8 @@ education:
       url: 'https://github.com/steffynebot/Projets-Data-Analyst'
   - area: Licence Sociologie 
     institution: Université Paris Descartes
-    date_start: 2021
-    date_end: 2022
+    date_start: 2021-10-01
+    date_end: 2022-06-30
     summary:  |
       Cours inclus:
       - Production d'enquêtes et d'analyses quantitatives
@@ -99,11 +99,18 @@ work:
     date_start: 2024-06-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - Analyse textuelle, enrichissement et structuration des données
-      - Visualisation avec Power BI, coordination de projets
-      - Animation de réseaux professionnels
-      - Veille scientifique et formation
+      Missions:
+      - Mise en place et application des procédures de la chaîne de traitement des données, adaptées à l'objet d'étude
+      - Traitement, enrichissement, validation et exploitation des données dans le respect des normes en suivant une 
+        démarche qualité
+      - Participation à la mise en œuvre et à l'amélioration de la structure et du contenu des données
+      - Accompagnement des projets au sein d'une équipe ou en partenariat, en coordonnant des moyens humains, techniques  
+        ou financiers
+      - Animation des réseaux professionnels et/ou technologiques
+      - Diffusion et valorisation les résultats des études réalisées
+      - Analyse textuelle des données
+      - Veille métier, scientifique et technologique, conception et animation des actions de formation
+      - Encadrement d'équipe et suivi de projets
   - position: Gestionnaire de bases de données réglementaires
     company_name: Crédit Agricole
     company_url: ''
@@ -111,10 +118,12 @@ work:
     date_start: 2023-01-01
     date_end: 2023-03-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Missions:
+      - Nettoyage et tris des données clients, fournisseurs et techniques sur le logiciel Access
+      - Mise en forme et transfert des données (ODBC)
+      - Création, administration et mise à jour de la base de données, tout en ayant un rôle de support technique pour les 
+        collaborateurs et le service IT.
+      - Croisement des données bancaires (TCD Excel et Access)
   - position: Data Analyst
     company_name: IEIF
     company_url: ''
@@ -122,28 +131,77 @@ work:
     date_start: 2022-06-01
     date_end: 2022-11-30
     summary: |
-      Responsibilities include:
-      - Automatisation de pipelines avec Dataiku
-      - Création de dashboards sur Toucan Toco
-      - Collecte de données via API
+      Missions:
+      - Recherche de nouvelles sources de données et automatisation avec Dataiku
+      - Backend sur plusieurs projets Dataiku
+      - Maintient et développement d'un environnement d’exploration et d’accès aux données
+      - Création, industrialisation et amélioration de la production d’outputs, indicateurs et visualisations
+      - Création et mise à disposition d'applications avec Toucan Toco Création de graphiques, Dashboard et KPI
+      - Utilisation, et aspiration des données par API via les plateformes (INSEE, Data Gouv)
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Data & Tech
     items:
       - name: Python
-        description: ''
-        percent: 80
-        icon: python
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
+        icon: fab/python
+        percent: 85
+      - name: R
+        icon: fab/r-project
+        percent: 70
       - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+        icon: fas/database
+        percent: 80
+      - name: API (INSEE, OCDE, FAO)
+        icon: fas/plugs
+        percent: 80
+      - name: Statistiques
+        icon: fas/chart-line
+        percent: 90
+      - name: Machine Learning (Scikit-learn)
+        icon: fas/brain
+        percent: 80
+  - name: Outils BI / Dashboard
+    items:
+      - name: Power BI
+        icon: fas/chart-pie
+        percent: 90
+      - name: Tableau
+        icon: fas/table
+        percent: 85
+      - name: Knime
+        icon: fas/project-diagram
+        percent: 100
+      - name: Toucan Toco
+        icon: fas/chart-area
+        percent: 75
+      - name: Dataiku
+        icon: fas/cogs
+        percent: 80
+  - name: Enquêtes et Méthodologie
+    items:
+      - name: Méthodes quantitatives & qualitatives
+        icon: fas/poll
+        percent: 100
+      - name: Conception de questionnaires
+        icon: fas/clipboard-question
+        percent: 90
+      - name: Analyse d’enquête
+        icon: fas/clipboard-list
+        percent: 95
+
+  - name: Bureautique
+    items:
+      - name: Excel (TCD, KPI, Dashboard)
+        icon: fas/file-excel
+        percent: 95
+      - name: Word, PowerPoint
+        icon: fas/file-word
+        percent: 85
+      - name: Access
+        icon: fas/database
+        percent: 90
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -152,7 +210,7 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Dogs
+      - name: cat
         description: ''
         percent: 100
         icon: dog
