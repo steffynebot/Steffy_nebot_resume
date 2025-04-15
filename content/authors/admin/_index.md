@@ -37,7 +37,7 @@ profiles:
   - icon: "media/tbs.svg"
     url: https://public.tableau.com/app/profile/andrea.nebot
 
-Domaines:
+interests:
   - Scientométrie
   - Bibliométrie
   - Sciences ouvertes
@@ -46,7 +46,7 @@ Domaines:
   - Sociologie
   - Démographie
 
-Formations:
+education:
   - area: Bac+5 Data Scientist
     institution: Centrale Supélec (OpenClassrooms)
     date_start: 2023-03-01
