@@ -51,7 +51,7 @@ Formations:
     institution: Centrale Supélec (OpenClassrooms)
     date_start: 2023-03-01
     date_end: 2024-06-30
-    summary: |
+    summary:  |
       Projets:
       - Idée d'application au service de la santé publique (PYTHON) 
       - Anticiper les besoin de consommation des bâtiments (PYTHON) 
@@ -66,7 +66,7 @@ Formations:
     institution: ENSAE (OpenClassrooms)
     date_start: 2022-09-01
     date_end: 2023-03-01
-    summary: |
+    summary:  |
       Projets:
       - Analyse des ventes pour un e-commerce (Excel)
       - Création et utilisation d'une base de données immobilière (SQL) 
@@ -85,7 +85,7 @@ Formations:
     institution: Université Paris Descartes
     date_start: 2021
     date_end: 2022
-    summary: |
+    summary:  |
       Cours inclus:
       - Production d'enquêtes et d'analyses quantitatives
       - Production d'enquêtes et d'analyses qualitatives
