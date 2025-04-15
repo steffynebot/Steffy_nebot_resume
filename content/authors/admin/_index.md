@@ -61,7 +61,7 @@ Formations:
       - Déployment d'un modèle dans le cloud
     button:
       text: 'Voir les projets'
-      url: '[https://example.com'][def]
+      url: 'https://github.com/steffynebot/Projets-Data-Scientist'
   - area: Bac+4 Data Analyst
     institution: ENSAE (OpenClassrooms)
     date_start: 2022-09-01
@@ -87,9 +87,10 @@ Formations:
     date_end: 2022
     summary: |
       Cours inclus:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Production d'enquêtes et d'analyses quantitatives
+      - Production d'enquêtes et d'analyses qualitatives
+      - Démographie
+      - Ethnologie
 work:
   - position: Data Analyst
     company_name: INRIA
