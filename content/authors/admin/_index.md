@@ -124,7 +124,9 @@ skills:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
+        icon: 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" />
+          
       - name: Data Science
         description: ''
         percent: 100
