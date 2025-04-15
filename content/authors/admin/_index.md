@@ -179,7 +179,7 @@ skills:
         percent: 80
   - name: Bureautique
     items:
-      - name: Excel (TCD, KPI, Dashboard)
+      - name: Excel
         icon: fas/file-excel
         percent: 95
       - name: Word, PowerPoint
