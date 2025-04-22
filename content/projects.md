@@ -1,6 +1,6 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'Projets'
+date: 2025-04-22
 type: landing
 
 design:
@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Mes projets
+      text: Passionnée par la création et l'innovation, j’ai contribué à divers projets au fil des années. En voici une sélection représentative
       filters:
         folders:
           - project

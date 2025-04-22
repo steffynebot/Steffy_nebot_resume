@@ -1,6 +1,6 @@
 ---
 title: Traitement et illustration des images
-date: 2023-10-26
+date: 2025-03-26
 external_link: https://github.com/steffynebot/Modification_des_images
 tags:
   - MarkdownPillow (PIL) 
