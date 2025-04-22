@@ -26,5 +26,5 @@ main:
     url: boite_a_outils/
     weight: 40
   - name: 💬 Contactez-moi
-    url: /#contact
+    url: contact/
     weight: 50
