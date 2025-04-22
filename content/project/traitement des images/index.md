@@ -1,13 +1,15 @@
 ---
-title: scikit-learn
+title: Traitement et illustration des images
 date: 2023-10-26
-external_link: https://github.com/scikit-learn/scikit-learn
+external_link: https://github.com/steffynebot/Modification_des_images
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - MarkdownPillow (PIL) 
+  - matplotlib 
+  - numpy 
+  - sklearn.cluster.KMeans 
+  - cairosvg
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Ce projet propose une harmonisation artistique d'une illustration de cerveau fleuri, en s'inspirant des couleurs dominantes d'un fichier SVG de style "blob" abstrait
 
 <!--more-->
