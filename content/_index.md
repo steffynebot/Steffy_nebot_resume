@@ -35,11 +35,8 @@ sections:
       title: '📚 Mes travaux de recherche'
       subtitle: ''
       text: |-
-        Bienvenue ! Je suis ingénieure d’études en data science à l’INRIA. J’explore comment les données, la science et la technologie façonnent notre société, à travers des approches quantitatives et qualitatives.
-
-Mes domaines d’intérêt incluent l’analyse de données, la scientométrie, et l’impact sociétal de la recherche et de l’innovation.
-
-Envie de collaborer ou simplement d’échanger ? N’hésitez pas à me contacter
+        Bienvenue ! Je suis ingénieure d’études en data science à l’INRIA. J’explore comment les données, la science et la technologie façonnent notre société, à travers des approches quantitatives et qualitatives. Mes domaines d’intérêt incluent l’analyse de données, la scientométrie, et l’impact sociétal de la recherche et de l’innovation.
+        Envie de collaborer ou simplement d’échanger ? N’hésitez pas à me contacter.
     design:
       columns: '1'
   - block: collection
