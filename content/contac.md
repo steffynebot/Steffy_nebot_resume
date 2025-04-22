@@ -8,13 +8,7 @@ weight: 10
 
 content:
   autolink: true
-
-  form:
-    provider: netlify
-    netlify:
-      captcha: false
-
-  email: contact@monsite.fr
+  email: steffy.nebot@gmail.com
   phone: '+33 6 12 34 56 78'
   address:
     street: 123 Rue de la Science
@@ -43,5 +37,5 @@ content:
       link: 'https://www.linkedin.com/in/tonprofil/'
 
 design:
-  columns: '1'
+  columns: '2'
 ---

@@ -32,4 +32,7 @@ sections:
     content:
       title: Languages
       username: admin
+
+design:
+  columns: '2'
 ---
