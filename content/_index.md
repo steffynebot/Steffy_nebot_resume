@@ -32,14 +32,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 Mes travaux de recherche'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Bienvenue ! Je suis ingénieure d’études en data science à l’INRIA. J’explore comment les données, la science et la technologie façonnent notre société, à travers des approches quantitatives et qualitatives.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+Mes domaines d’intérêt incluent l’analyse de données, la scientométrie, et l’impact sociétal de la recherche et de l’innovation.
+
+Envie de collaborer ou simplement d’échanger ? N’hésitez pas à me contacter
     design:
       columns: '1'
   - block: collection
