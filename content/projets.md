@@ -18,6 +18,6 @@ sections:
           - projets
     design:
       view: article-grid
-      fill_image: true
+      fill_image: False
       columns: 3
 ---
