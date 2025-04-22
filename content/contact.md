@@ -2,53 +2,46 @@
 widget: contact
 headless: true  # This file represents a page section.
 
-# Put Your Section Options Here (title, background, etc.) ...
-title: Contact Me
-subtitle: ''
+title: Contactez-moi
+subtitle: "Pour toute demande de formation, collaboration ou autre"
 weight: 10
 
 content:
-  # Automatically link email and phone or display as text?
   autolink: true
 
-  # Email form provider
   form:
     provider: netlify
-    formspree:
-      id:
     netlify:
-      # Enable CAPTCHA challenge to reduce spam?
       captcha: false
 
-  # Contact details (edit or remove options as required)
-  email: steffy.nebot@gmail.com
-  phone: 888 888 88 88
+  email: contact@monsite.fr
+  phone: '+33 6 12 34 56 78'
   address:
-    street: 450 Serra Mall
-    city: Stanford
-    region: CA
-    postcode: '94305'
-    country: United States
-    country_code: US
+    street: 123 Rue de la Science
+    city: Paris
+    region: Île-de-France
+    postcode: '75000'
+    country: France
+    country_code: FR
   coordinates:
-    latitude: '37.4275'
-    longitude: '-122.1697'
-  directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+    latitude: '48.8566'
+    longitude: '2.3522'
+  directions: Merci de remplir le formulaire pour toute prise de contact.
   office_hours:
-    - 'Monday 10:00 to 13:00'
-    - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://calendly.com'
+    - 'Lundi 09:00 à 12:00'
+    - 'Mercredi 14:00 à 17:00'
+  appointment_url: 'https://calendly.com/monagenda'
+
   contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/Twitter'
-    - icon: video
+    - icon: envelope
       icon_pack: fas
-      name: Zoom Me
-      link: 'https://zoom.com'
+      name: Email
+      link: 'mailto:contact@monsite.fr'
+    - icon: linkedin
+      icon_pack: fab
+      name: LinkedIn
+      link: 'https://www.linkedin.com/in/tonprofil/'
 
 design:
-  # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '1'
 ---
