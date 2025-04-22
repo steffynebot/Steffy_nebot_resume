@@ -15,9 +15,9 @@ sections:
       text: Passionnée par la création et l'innovation, j’ai contribué à divers projets au fil des années. En voici une sélection représentative
       filters:
         folders:
-          - projects
+          - projets
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
 ---
