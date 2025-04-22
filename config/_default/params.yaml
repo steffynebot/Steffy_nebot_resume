@@ -49,6 +49,7 @@ footer:
       share_alike: true
       allow_commercial: false
 
+
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
