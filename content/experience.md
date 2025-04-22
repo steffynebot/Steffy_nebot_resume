@@ -33,6 +33,6 @@ sections:
       title: Languages
       username: admin
 
-design:
-  columns: '2'
+    design:
+      columns: '2'
 ---
