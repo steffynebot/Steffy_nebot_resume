@@ -18,6 +18,7 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+      columns: '2'
   - block: resume-skills
     content:
       title: Skills & Hobbies
@@ -32,7 +33,4 @@ sections:
     content:
       title: Languages
       username: admin
-
-    design:
-      columns: '2'
 ---
