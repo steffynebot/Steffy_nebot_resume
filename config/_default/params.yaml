@@ -8,6 +8,7 @@ appearance:
   theme_day: Strawberry
   theme_night: Dark
   font: Cyberpunk
+  font_size: s
 
 # SEO
 marketing:
