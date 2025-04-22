@@ -6,9 +6,8 @@
 # Appearance
 appearance:
   theme_day: strawberry
-  theme_night: mr robot
-  font: ocean
-  font_size: M
+  theme_night: dark
+  font: strawberry
 
 # SEO
 marketing:
