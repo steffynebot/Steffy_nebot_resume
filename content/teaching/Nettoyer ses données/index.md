@@ -1,49 +1,114 @@
 ---
-title: Nettoyer et exporter ses données API avec Python
-summary: Apprenez à importer, nettoyer et exporter vos données à partir d'une API avec Python en quelques étapes.
+title: Nettoyer et visualiser les données FAO avec Python
+summary: Utilisez Pandas et Matplotlib pour explorer, nettoyer et visualiser des données issues de la FAO.
 date: 2025-04-22
 type: docs
 tags:
   - Python
-  - API
   - Pandas
+  - Matplotlib
   - Nettoyage de données
+  - Visualisation
 image:
-  caption: 'Nettoyez et structurez vos données comme un pro avec Jupyter et Python'
+  caption: 'Exploration et nettoyage des données FAO avec Pandas et Matplotlib'
 ---
 
-Vous travaillez avec des données issues d’une API ? Vous souhaitez apprendre à les transformer et les exporter dans un format exploitable ? Ce tutoriel vous guide pas à pas à l’aide d’un notebook Python.
+## 🌍 Objectif
 
-## 📡 Connexion à une API
+Dans ce tutoriel, nous allons :
 
-Tout commence par une requête HTTP pour récupérer les données. Voici un exemple simple avec l’API JSONPlaceholder :
+- Importer des données issues de la FAO (Organisation des Nations Unies pour l'alimentation et l'agriculture)
+- Nettoyer les données avec Pandas
+- Réaliser une visualisation simple avec Matplotlib et NumPy
+
+## 📥 Chargement des données
+
+Téléchargez les données depuis Kaggle ou utilisez une version locale :
 
 ```python
-import requests
-
-url = "https://jsonplaceholder.typicode.com/posts"
-response = requests.get(url)
-data = response.json()  # On transforme la réponse en liste de dictionnaires
-
-📊 Chargement dans un DataFrame
-Utilisons Pandas pour charger ces données dans une structure tabulaire :
-
 import pandas as pd
 
-df = pd.DataFrame(data)
+# Exemple de chargement depuis un fichier local
+df = pd.read_csv("FAO.csv", encoding="latin1")
 df.head()
+```
 
- 🧹 Nettoyage des données
-Quelques étapes classiques de nettoyage :
+## 🧹 Étapes de nettoyage avec Pandas
 
-# Renommer les colonnes pour plus de clarté
-df.rename(columns={{'userId': 'user_id', 'id': 'post_id'}}, inplace=True)
+```python
+# Renommer des colonnes
+df.rename(columns={"Area": "Pays", "Item": "Produit", "Element": "Type_donnée"}, inplace=True)
 
 # Vérifier les valeurs manquantes
 print(df.isnull().sum())
 
-# Supprimer les doublons si nécessaire
-df.drop_duplicates(inplace=True)
+# Supprimer les colonnes inutiles
+df.drop(columns=["Domain Code", "Area Code", "Item Code", "Element Code"], inplace=True)
 
-# Exemple : supprimer les lignes où le titre est vide
-df = df[df['title'].str.strip() != '']
+# Garder uniquement les données de production
+df = df[df["Type_donnée"] == "Production"]
+
+# Supprimer les lignes sans valeur
+df = df[df["Value"].notnull()]
+```
+
+## 📊 Transformation avec Pandas
+
+```python
+# Agréger la production moyenne par pays
+prod_pays = df.groupby("Pays")["Value"].mean().sort_values(ascending=False).head(10)
+prod_pays
+```
+
+## 📈 Visualisation avec Matplotlib et NumPy
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Préparation des données
+pays = prod_pays.index
+valeurs = prod_pays.values
+
+# Création du graphique
+plt.figure(figsize=(12, 6))
+bars = plt.bar(pays, valeurs, color="skyblue")
+
+# Ajouter des étiquettes
+plt.xticks(rotation=45)
+plt.title("Top 10 des pays producteurs (en moyenne)")
+plt.ylabel("Production moyenne")
+plt.xlabel("Pays")
+plt.tight_layout()
+plt.show()
+```
+
+## 🎯 Résultat
+
+Ce graphique permet d'identifier les pays ayant les plus hauts niveaux moyens de production parmi les données FAO analysées.
+
+## 📁 Export des données nettoyées
+
+```python
+df.to_csv("fao_donnees_nettoyees.csv", index=False)
+```
+
+## 🎥 Inspiration vidéo
+
+{< youtube VqCkCDFLSsc >}
+
+## 🧪 Astuce
+
+{< spoiler text="👉 Cliquez pour une astuce NumPy" >}
+Utilisez `np.where()` pour créer des colonnes conditionnelles dans un DataFrame Pandas !
+{< /spoiler >}
+
+## 📚 Ressources utiles
+
+- [Pandas Documentation](https://pandas.pydata.org/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
+- [Dataset FAO sur Kaggle](https://www.kaggle.com/datasets/)
+
+---
+
+{< icon name="python" >} Laissez parler vos données avec Python 🐍 !
