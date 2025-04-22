@@ -112,7 +112,6 @@ $$
 
 Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
 
-
     ```python
     import pandas as pd
     data = pd.read_csv("data.csv")
