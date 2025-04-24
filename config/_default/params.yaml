@@ -5,10 +5,10 @@
 
 # Appearance
 appearance:
-  theme_day: Strawberry
-  theme_night: Dark
-  font: Cyberpunk
-  font_size: s
+  theme_day: apogee
+  theme_night: apogee
+  font: apogee
+  font_size: L
 
 # SEO
 marketing:
