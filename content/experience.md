@@ -33,4 +33,5 @@ sections:
     content:
       title: Languages
       username: admin
+      columns: '2'
 ---
