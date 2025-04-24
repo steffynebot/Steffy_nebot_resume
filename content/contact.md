@@ -1,5 +1,5 @@
 ---
-title: "Comment puis-je vous aider?"
+title: "Vous avez une question?"
 layout: page
 ---
 N'hésitez pas à me contacter via ce formulaire :
