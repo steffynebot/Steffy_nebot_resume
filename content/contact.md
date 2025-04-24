@@ -2,26 +2,9 @@
 title: "Contactez-moi"
 layout: page
 ---
+N'hésitez pas à me contacter via ce formulaire :
 
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contact">
-  <p hidden>
-    <label>Don’t fill this out: <input name="bot-field" /></label>
-  </p>
-  <div class="mb-3">
-    <label for="name">Nom</label>
-    <input type="text" name="name" id="name" class="form-control" required>
-  </div>
-  <div class="mb-3">
-    <label for="email">Adresse Email</label>
-    <input type="email" name="email" id="email" class="form-control" required>
-  </div>
-  <div class="mb-3">
-    <label for="message">Message</label>
-    <textarea name="message" id="message" rows="5" class="form-control" required></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Envoyer</button>
-</form>{{ define "main" }}
+{{ define "main" }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
 
