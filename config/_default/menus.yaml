@@ -19,7 +19,7 @@ main:
   - name: Experiences
     url: experience/
     weight: 20
-  - name: Projets
+  - name: 🧠 Projets
     url: projects/
     weight: 30
   - name: 🧰 Boîte à outils
