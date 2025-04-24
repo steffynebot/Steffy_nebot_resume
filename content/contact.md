@@ -4,150 +4,20 @@ layout: page
 ---
 N'hésitez pas à me contacter via ce formulaire :
 
-{{ define "main" }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" crossorigin="anonymous"></script>
+<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/0c8cc06d31e40afc3f145320a8c7dded?embedded=1"></div>
 
-<div class="container my-5">
-  <form action="https://formkeep.com/f/1b6392ead701" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
-    <fieldset>
-      <h2 class="text-center">Contactez-moi</h2>
-      <div class="row">
-        <div class="form-group col-sm-6">
-          <label for="First_Name">Prénom</label>
-          <input type="text" name="First Name" id="First_Name" class="form-control">
-        </div>
-        <div class="form-group col-sm-6">
-          <label for="Last_Name">Nom</label>
-          <input type="text" name="Last Name" id="Last_Name" class="form-control">
-        </div>
-      </div>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
 
-      <div class="row">
-        <div class="form-group col-sm-6">
-          <label for="Email">Email *</label>
-          <input type="email" name="Email" id="Email" required placeholder="example@example.com" class="form-control">
-        </div>
-        <div class="form-group col-sm-6">
-          <label for="Phone">Téléphone</label>
-          <input type="tel" name="Phone" id="Phone" placeholder="06 00 00 00 00" class="form-control">
-        </div>
-      </div>
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
 
-      <div class="form-group">
-        <label for="Reason">Objet *</label>
-        <select name="Reason" id="Reason" required class="form-control">
-          <option value="">Choisissez</option>
-          <option value="Support">Support technique</option>
-          <option value="Formation">Demande de formation</option>
-          <option value="Publication">Proposition de publication</option>
-          <option value="Autre">Autre</option>
-        </select>
-      </div>
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+})
 
-      <div class="form-group">
-        <label for="Message">Message *</label>
-        <textarea name="Message" id="Message" required class="form-control" rows="5"></textarea>
-      </div>
-
-      <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
-        <input name="subscribe_1b6392ead701_48334" type="email" tabindex="-1" autocomplete="off" placeholder="Your email here">
-      </div>
-
-      <input type="submit" value="Envoyer" class="btn btn-primary btn-block">
-    </fieldset>
-  </form>
-</div>
-{{ end }}
-<!-- Generated from https://formkeep.com/forms/1b6392ead701/designer/edit on April 24, 2025 13:08 using version 3.03.29 -->
-<!--
-Instructions
-============
-You can use this HTML as a starting point for creating and styling your own form to host on your site.
-It uses some basic classes from bootstrap to get you started and has links to include bootstrap and jquery.
-You can remove those if you don't need them, or add additional fields yourself.
-If you select the Custom Theme you can set fonts and colors, and those will get exported.
-The other themes are not supported in this export feature.
-If you make changes using the Form Designer you would need to re-export this HTML.
-You can also dynamically embed the form so that changes made in the Form Designer show up automatically.
-You only need to include jQuery if you've set any Field Rules to hide / show fields.
-For details see https://formkeep.com/forms/1b6392ead701/setup
--->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<div class="container">
-  <div class="row">
-    <section class="container col-xs-12 col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-3 my-4">
-        <div class="container" style="width:100%">
-        <form class="" target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/1b6392ead701" accept-charset="UTF-8" method="post">
-          <fieldset>
-            <center><h2>Contact Us</h2></center>
-            <br>
-              <div class="row">
-              <div class="form-group col-xs-6" id="First_Name__div">
-              <label for="First_Name">First Name</label>
-              <input type="text" name="First Name" id="First_Name" autofocus="autofocus" class="form-control" />
-          </div>
-              <div class="form-group col-xs-6" id="Last_Name__div">
-              <label for="Last_Name">Last Name</label>
-              <input type="text" name="Last Name" id="Last_Name" class="form-control" />
-          </div>
-          </div>
-              <div class="row">
-              <div class="form-group col-xs-6" id="Email__div">
-              <label title="required" for="Email">Email *</label>
-              <input type="email" name="Email" id="Email" required="required" placeholder="example@example.com" class="form-control" />
-          </div>
-              <div class="form-group col-xs-6" id="Phone__div">
-              <label for="Phone">Phone</label>
-              <input type="tel" name="Phone" id="Phone" placeholder="123-456-7890" class="form-control" />
-          </div>
-          </div>
-              <div class="row">
-              <div class="form-group col-xs-12" id="Reason__div">
-              <label for="Reason">Reason *</label>
-              <select name="Reason" id="Reason" required="required" class="form-control"><option value="">Choose</option>
-<option value="Technical Support">Technical Support</option>
-<option value="Sales Contact">Sales Contact</option>
-<option value="Billing Support">Billing Support</option>
-<option value="Refund">Refund</option>
-<option value="Other">Other</option></select>
-          </div>
-          </div>
-              <div class="row">
-              <div class="form-group col-xs-12" id="Message__div">
-              <label title="required" for="Message">Message *</label>
-              <textarea name="Message" id="Message" required="required" class="form-control">
-</textarea>
-              <small class="form-text text-muted">Please provide as much detail as you can to help speed our reply</small>
-          </div>
-          </div>
-          <br>
-          <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
-            <label for="subscribe_1b6392ead701_48334"></label>
-            <input name="subscribe_1b6392ead701_48334" value="" tabindex="-1" autocomplete="off"
-                   type="email" id="email_subscribe_1b6392ead701_48334" placeholder="Your email here">
-          </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <input type="submit" value="Submit" class="btn btn-block btn-primary" data-disable-with="Submit" />
-            </div>
-          </div>
-        </fieldset>
-</form>
-        <div style='text-align: center; padding-top: 6rem; padding-bottom: 3rem'>
-          <a style="color: #868190; line-height: 0 !important; padding: 3px; text-decoration:none; font-size:1em" target="_blank" rel="noopener noreferrer" href="https://formkeep.com/?utm_campaign=1b6392ead701&amp;utm_medium=web&amp;utm_source=formkeep-landingpage-free">
-            Free forms by FormKeep &nbsp;
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" aria-labelledby="formkeep-logo__title" role="img" style="fill: #868190; width: 3rem; margin-bottom: 3px; vertical-align: middle;">
-  <title id="formkeep-logo__title">FormKeep</title>
-  <g class="formkeep-logo__mark">
-    <path d="M70.693,84.418743 C70.693,85.3699065 70.039,86.0825337 69.082,86.0825337 L32.992,86.0825337 C32.035,86.0825337 31.307,85.3699065 31.307,84.418743 L31.307,77.0360445 C31.307,76.154454 31.644,75.3116258 32.283,74.7003765 L36.619,70.5389119 L39.211,46.5053855 C39.281,45.856368 39.023,45.2143077 38.527,44.7869302 L35.035,41.7436045 C34.346,41.1522333 34,40.2915148 34,39.3860707 L34,27.6480968 C34,26.660159 34.702,25.8580807 35.697,25.8580807 L40.991,25.8580807 C41.928,25.8580807 42.752,26.6134456 42.752,27.5437372 L42.752,30.2073926 L47.129,30.2073926 L47.129,27.626231 C47.129,26.65022 47.956,25.8580807 48.938,25.8580807 L53.284,25.8580807 C54.22,25.8580807 54.871,26.6134456 54.871,27.5437372 L54.871,30.2073926 L59.247,30.2073926 L59.247,27.7017675 C59.247,26.6840126 60.217,25.8580807 61.241,25.8580807 L66.482,25.8580807 C67.418,25.8580807 68.337,26.6134456 68.337,27.5437372 L68.337,39.6305705 C68.337,40.389911 67.97,41.1224162 67.454,41.6819827 L63.765,44.8237045 C63.297,45.2282224 63.037,45.8345021 63.103,46.4467453 L65.697,70.5389119 L70.034,74.9329494 C70.498,75.3961074 70.693,76.0232591 70.693,76.6772461 L70.693,84.418743 L70.693,84.418743 Z M93.524,21.7890489 L59.543,2.27280371 C54.261,-0.757601237 47.768,-0.757601237 42.486,2.27280371 L8.506,21.7890489 C2.262,25.1871973 0,30.4220753 0,36.4838791 L0,75.5153755 C0,81.5781732 3.231,87.1798007 8.513,90.2102057 L42.512,109.726451 C47.794,112.75785 54.297,112.75785 59.579,109.726451 L93.526,90.2102057 C98.809,87.1798007 102,81.5781732 102,75.5153755 L102,36.4838791 C102,30.4220753 98.806,24.8204477 93.524,21.7890489 L93.524,21.7890489 Z"></path>
-    <path d="M51.136,59.906 C48.366,59.833 46.119,62.265 46.119,65.036 L46.119,75.412 C46.119,75.976 46.66,76.488 47.224,76.488 L54.725,76.488 C55.358,76.488 55.881,75.921 55.881,75.288 L55.881,65.036 C55.881,62.247 53.898,59.978 51.136,59.906"></path>
-  </g>
-</svg>
-</a>        </div>
-      </div>
-    </section>
-  </div>
-</div>
-<!-- Generated from https://formkeep.com/forms/1b6392ead701/designer/edit on April 24, 2025 13:08 using version 3.03.29 -->
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+</script>
