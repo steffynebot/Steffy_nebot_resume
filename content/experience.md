@@ -10,14 +10,20 @@ design:
 
 # Page sections
 sections:
-  - block: resume-experience
+  - block: resume-work
     content:
       username: admin
     design:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: false
+  - block: resume-education
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
       columns: '2'
   - block: resume-skills
     content:
