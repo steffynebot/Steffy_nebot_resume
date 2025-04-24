@@ -37,7 +37,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Hello !"
+      text: "Bienvenue sur mon site!"
 
 # Site footer
 footer:
